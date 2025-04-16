@@ -10,5 +10,9 @@ class TestMathUtils(unittest.TestCase):
         self.assertEqual(subtract(10, 5), 5)
         self.assertEqual(subtract(0, 0), 0)
 
+    def test_mult(self):
+        self.assertEqual(mult(2, 2), 4)
+        self.assertEqual(mult(1, 0), 0)
+
 if __name__ == '__main__':
     unittest.main()
